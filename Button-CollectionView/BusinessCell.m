@@ -27,7 +27,7 @@ typedef enum : NSUInteger {
 - (void)setUpCell {
 
     self.layer.borderWidth = 0.5;
-    self.layer.cornerRadius = 2;
+    self.layer.cornerRadius = 5;
 }
 
 - (void)buildUpSubviews {

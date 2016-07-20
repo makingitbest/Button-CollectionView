@@ -70,7 +70,6 @@ typedef enum : NSUInteger {
         }
         
         self.gridOneView   = [[GridCollectionView alloc] initWithFrame: CGRectMake(0, self.backOneView.bottom, self.view.frame.size.width, 400)];
-        self.gridOneView.layer.borderWidth   = 1.f;
         self.gridOneView.contentInsets       = UIEdgeInsetsMake(15, 15, 15, 15);
         self.gridOneView.HorizontalGap       = 15;
         self.gridOneView.verticalGap         = 15;
