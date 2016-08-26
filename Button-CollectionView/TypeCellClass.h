@@ -10,7 +10,14 @@
 
 @interface TypeCellClass : NSObject
 
+/**
+ *  cell的className
+ */
 @property (nonatomic, strong)Class     className;
+
+/**
+ *  cell的注册ID
+ */
 @property (nonatomic, strong)NSString *registID;
 
 @end
